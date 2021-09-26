@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    background-position-y: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+}
+.card-row{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.non-list{
+    list-style: none;
+}
+i{
+    font-size: small;
+}
+.card-notes{
+    text-align: left;
+    margin-top: 15px;
+}
+.buy{
+    margin: 0 35px;
+    padding: 10px;
+    background: antiquewhite;
+    border: unset;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.tour-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 35px;
+    border: 5px solid antiquewhite;
+}
+.center-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.top{
+    text-align: unset;
+    justify-content: unset;
+    align-items: unset;
+}
+.text{
+    font-weight: unset;
+    font-size: large;
+    margin: 10px 0;
+    padding: 10px;
+}
+.tour-title{
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 10px 10px;
+    padding: 10px;
+}
+.tours{
+    text-align: left;
+    margin: 0;
+}
+.card-in{
+    display: flex;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.tour-title-card{
+    margin: 0 35px;
+}
+.y-center{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.image{
+    align-self: center;
+    width: 1000px;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    border: 5px solid cornflowerblue;
+}
+.wide-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: flex-start;
+    width: auto;
+    margin: 10px 90px;
+    padding: 10px 10px;
+    border: 5px solid antiquewhite;
+}
+.white-card{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100vw;
+    height: fit-content;
+    padding: 30px 10px;
+    margin: 0 10px 35px 10px;
+}
+.review{
+    width: auto;
+    margin: 25px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 5px solid antiquewhite;
+}
+.card ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+.par{
+    font-weight: bold ;
+    margin:0;
+    font-size: large;
+    padding: 10px;
+}
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 25px;
+    margin: auto 40px 40px;
+    background: cornflowerblue;
+    border: unset;
+    cursor: pointer;
+}
+.change-pass {
+    padding: 10px;
+    align-self: flex-start;
+    margin: 0;
+    margin-top: 25px;
+    background: antiquewhite;
+    border: unset;
+    cursor: pointer;
+}
+.msg{
+    border: 2px solid #e7845c;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+.menu *{
+    margin: 0;
+    padding: 0;
+}
+.menu ul,
+.menu ol{
+    list-style: none;
+}
+.menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.menu >ul li a{
+    display: block;
+    background: white;
+    padding: 50px 70px;
+    margin: auto;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.menu > ul li{
+    position: relative;
+}
+.menu li a:hover{
+    background: cornflowerblue;
+    transition: all 0.2s ease;
+}
+.menu ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu li  ul{
+    display: none;
+    min-width: 400px;
+}
+.menu li:hover > ul{
+    display: block;
+    position: absolute;
+}
